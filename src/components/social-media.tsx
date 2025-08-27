@@ -7,7 +7,7 @@ import {
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import {
-  SiMastodon,
+  SiGitea,
   SiTiktok,
   SiInstagram,
   SiDiscord,
@@ -21,14 +21,14 @@ export function SocialMedia() {
           <Tooltip>
             <TooltipTrigger asChild>
               <Button variant="ghost" size="icon">
-                <Link href="https://tiktok.com/@esajez" target="_blank">
-                  <SiTiktok />
+                <Link href="https://gitea.esaul.dev" target="_blank">
+                  <SiGitea />
                 </Link>
               </Button>
             </TooltipTrigger>
 
             <TooltipContent>
-              <p>TikTok</p>
+              <p>Gitea</p>
             </TooltipContent>
           </Tooltip>
         </div>
@@ -37,14 +37,14 @@ export function SocialMedia() {
           <Tooltip>
             <TooltipTrigger asChild>
               <Button variant="ghost" size="icon">
-                <Link href="https://mastodon.social/@Esaul" target="_blank">
-                  <SiMastodon />
+                <Link href="https://tiktok.com/@esajez" target="_blank">
+                  <SiTiktok />
                 </Link>
               </Button>
             </TooltipTrigger>
 
             <TooltipContent>
-              <p>Mastodon</p>
+              <p>TikTok</p>
             </TooltipContent>
           </Tooltip>
         </div>
@@ -69,7 +69,7 @@ export function SocialMedia() {
           <Tooltip>
             <TooltipTrigger asChild>
               <Button variant="ghost" size="icon">
-                <Link href="https://discord.gg/KzSMkUwpYA" target="_blank">
+                <Link href="https://discord.esaul.dev" target="_blank">
                   <SiDiscord />
                 </Link>
               </Button>
